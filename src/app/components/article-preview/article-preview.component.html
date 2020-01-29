@@ -1,0 +1,8 @@
+<div class="card">
+    <img [src]="article.imageUrl" class="card-img-top" alt="any image">
+    <div class="card-body">
+        <h5 class="card-title">{{article.title}}</h5>
+        <p class="card-text">{{article.deccription}}</p>
+        <a [routerLink]="[ article.id ]" href="#" class="btn btn-primary">Read more</a>
+    </div>
+</div>
